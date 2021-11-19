@@ -6,9 +6,9 @@ namespace Activity5._3._1
     {
         public double Radius { get; set; }
 
-        public Circle(double x, double y, double radius) 
+        public Circle(double x, double y, double radius) : base(x, y)
         {
-            //ToDo
+            this.Radius = radius;
         }
 
         public override double GetArea()

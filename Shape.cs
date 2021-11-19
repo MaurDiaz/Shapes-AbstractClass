@@ -14,7 +14,8 @@ namespace Activity5._3._1
 
         public void Move(double dx, double dy)
         {
-            //ToDo
+            this.Centre.x += dx;
+            this.Centre.y += dy;
         }
 
         public abstract double GetArea();

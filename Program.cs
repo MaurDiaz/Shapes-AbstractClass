@@ -6,10 +6,14 @@ namespace Activity5._3._1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter the number of geometrical shapes:");
             int shapeCount = Int32.Parse(Console.ReadLine());
             var shapes = new Shape[shapeCount];
             for (int i = 0; i < shapeCount; ++i)
             {
+                Console.WriteLine("Enter one of following options, where x and y are the coordinates,\n w and h are width and height, and r is radius:");
+                Console.WriteLine("rectangle x y w h");
+                Console.WriteLine("circle x y r");
                 var cmd = Console.ReadLine().Split();
                 if (cmd[0] == "rectangle")
                 {
@@ -30,6 +34,13 @@ namespace Activity5._3._1
             string input;
             while ((input = Console.ReadLine()) != "exit")
             {
+                Console.WriteLine("Enter one of the following commands:");
+                Console.WriteLine("centre i");
+                Console.WriteLine("perimeter i");
+                Console.WriteLine("area i");
+                Console.WriteLine("move i dx dy");
+                Console.WriteLine("issmaller i j");
+                Console.WriteLine("exit");
                 var cmd = input.Split();
                 if (cmd[0] == "move")
                 {

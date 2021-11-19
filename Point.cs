@@ -6,5 +6,6 @@ namespace Activity5._3._1
     {
         public double x;
         public double y;
+        
     }
 }

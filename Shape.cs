@@ -23,7 +23,8 @@ namespace Activity5._3._1
 
         public bool IsSmallerThan(Shape other)
         {
-            //ToDo
+            if(this.GetArea() < other.GetArea()) return true;
+            else return false;
         }
       
     }

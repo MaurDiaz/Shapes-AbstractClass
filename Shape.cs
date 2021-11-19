@@ -8,7 +8,8 @@ namespace Activity5._3._1
 
         public Shape(double x, double y)
         {
-           //To Do
+           this.Centre.x = x;
+           this.Centre.y = y;
         }
 
         public void Move(double dx, double dy)

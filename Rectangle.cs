@@ -14,12 +14,12 @@ namespace Activity5._3._1
 
         public override double GetArea()
         {
-            //ToDo
+            return Height*Width;//ToDo
         }
 
         public override double GetPerimeter()
         {
-            //ToDo
+            return 2.0*Height + 2.0*Width;//ToDo
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Activity5._3._1
             var shapes = new Shape[shapeCount];
             for (int i = 0; i < shapeCount; ++i)
             {
-                Console.WriteLine("Enter one of following options, where x and y are the coordinates,\n w and h are width and height, and r is radius:");
+                Console.WriteLine("Enter one of following options, where x and y are the coordinates,\nw and h are width and height, and r is radius:");
                 Console.WriteLine("rectangle x y w h");
                 Console.WriteLine("circle x y r");
                 var cmd = Console.ReadLine().Split();

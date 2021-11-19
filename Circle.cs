@@ -18,7 +18,7 @@ namespace Activity5._3._1
 
         public override double GetPerimeter()
         {
-            return 2.0*Math.PI*Radius;//ToDo
+            return 2.0*Math.PI*Radius;
         }
     } 
 }
